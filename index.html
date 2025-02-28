@@ -10,11 +10,17 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
 </head>
+
+
 <body class="bg-gray-100 p-6">
 
                     <!-- first section  -->
+                     
 
     <div class="max-w-6xl mx-auto bg-white shadow-lg rounded-lg p-6">
+
+
+        
         <header class="flex justify-between items-center p-4 bg-blue-500 text-white rounded-lg">
             <div class="flex items-center gap-2">
 
@@ -28,8 +34,10 @@
                 <span id="activity-count" class="text-xl font-bold text-black">23</span>
                
                 <!-- <button class="bg-white text-blue-500 px-4 py-2 rounded-lg"></button> -->
-                <div> <img src="assets/theme-btn.png" alt=""></div>
+                <div> <button id="color-grading"> <img src="assets/theme-btn.png" alt=""> </button> </div>
             </div>
+
+            
         </header>
         
 
@@ -58,6 +66,9 @@
             <ul id="log-list" class="list-disc pl-6 text-gray-600"></ul>
         </aside>
     </div>
+
+
+
     </div>
      
         </div>
@@ -72,12 +83,14 @@
                 <h2> ShopEase </h2>
                 <h3 class="text-lg font-semibold">Fix Mobile Button Issue
                 </h3>
+                <div class="bg-white text-gray-500">
                 <h3 class="py-7 ">Debug using Chrome DevTools,
                      check for overlapping elements,
                      and ensure onClick works properly
                     and ensure onClick works properly</h3>
+                </div>
                     <button> <p>Deadline 21 March 2025 </p></button>
-                <button class="mt-2 px-4 py-2 bg-green-500 text-white rounded-lg" 
+                <button id="btn-opacity" class="mt-2 px-4 py-2 bg-green-500 text-white rounded-lg" 
                 onclick="completeTask('task1')">Complete</button>
             </div>
 
@@ -86,12 +99,13 @@
             <div class="p-4 bg-gray-200 rounded-lg" id="task2">
                 <h2> CloudSync </h2>
                 <h3 class="text-lg font-semibold">Add Dark Mode</h3>
-
+    <div class="bg-white text-gray-500">
                 <p class="py-7 ">Store the user's preference in localStorage, 
                     update CSS variables dynamically, 
                     and apply a smooth transition effect.</p>
+                </div>
                  <button> <p>Deadline 21 March 2025 </p></button>
-                <button class="mt-2 px-4 py-2 bg-green-500 text-white rounded-lg" 
+                <button id="btn-opacity2" class="mt-2 px-4 py-2 bg-green-500 text-white rounded-lg" 
                 onclick="completeTask('task2')">Complete</button>
             </div>
 
@@ -99,11 +113,13 @@
             <div class="p-4 bg-gray-200 rounded-lg" id="task3">
                 <h2>SwiftPay</h2>
                 <h3 class="text-lg font-semibold">Optimize Home Page</h3>
+                <div class="bg-white text-gray-500">
                 <h3> Debug using Chrome DevTools, check for overlapping elements,
                      and ensure onClick works properly
                     and ensure onClick works properly</h3>
+                </div>
                     <button> <p>Deadline 21 March 2025 </p></button>
-                <button class="mt-2 px-4 py-2 bg-green-500 text-white rounded-lg"
+                <button id="btn-opacity3" class="mt-2 px-4 py-2 bg-green-500 text-white rounded-lg"
                  onclick="completeTask('task3')">Complete</button>
             </div>
 
@@ -112,11 +128,14 @@
             <div class="p-4 bg-gray-200 rounded-lg" id="task4">
                 <h2>Meta</h2>
                 <h3 class="text-lg font-semibold">Add New Emoji</h3>
+
+                <div class="bg-white text-gray-500">
                 <h3>Debug using Chrome DevTools, check for overlapping elements,
                      and ensure onClick works properly
                     and ensure onClick works properly</h3>
+                </div>
                     <button> <p>Deadline 21 March 2025 </p></button>
-                <button class="mt-2 px-4 py-2 bg-green-500 text-white rounded-lg"
+                <button id="btn-opacity4" class="mt-2 px-4 py-2 bg-green-500 text-white rounded-lg"
                  onclick="completeTask('task4')">Complete</button>
             </div>
 
@@ -125,10 +144,12 @@
             <div class="p-4 bg-gray-200 rounded-lg" id="task5">
                 <h2>Google LLC</h2>
                 <h3 class="text-lg font-semibold">Integrate OpenAI API</h3>
+                <div class="bg-white text-gray-500">
                 <h3>Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
                     and ensure onClick works properly</h3>
+                </div>
                     <button> <p>Deadline 21 March 2025 </p></button>
-                <button class="mt-2 px-4 py-2 bg-green-500 text-white rounded-lg" 
+                <button id="btn-opacity5" class="mt-2 px-4 py-2 bg-green-500 text-white rounded-lg" 
                 onclick="completeTask('task5')">Complete</button>
             </div>
 
@@ -136,11 +157,13 @@
             <div class="p-4 bg-gray-200 rounded-lg" id="task6">
                 <h2>Glassdoar</h2>
                 <h3 class="text-lg font-semibold">Improve Job Searching</h3>
+                <div class="bg-white text-gray-500">
                 <h3>Debug using Chrome DevTools, check for overlapping elements,
                      and ensure onClick works properly
                     and ensure onClick works properly</h3>
+                </div>
                     <button> <p>Deadline 21 March 2025 </p></button>
-                <button class="mt-2 px-4 py-2 bg-green-500 text-white rounded-lg" onclick="completeTask('task6')">Complete</button>
+                <button id="btn-opacity6" class="mt-2 px-4 py-2 bg-green-500 text-white rounded-lg" onclick="completeTask('task6')">Complete</button>
             </div>
         </main>
          
@@ -150,7 +173,7 @@
 
 
 
-
+<script src="DevBoard.js"></script>
 
 
     
