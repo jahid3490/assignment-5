@@ -85,3 +85,16 @@ document.getElementById("color-grading").addEventListener("click", function() {
     const randomColor = colors[Math.floor(Math.random() * colors.length)];
     document.body.style.backgroundColor = randomColor;
 });
+
+
+
+document.getElementById("2nd-page").addEventListener("click",function(event){
+    event.preventDefault();
+    window.location.href = "index2.html";
+})
+
+document.getElementById("1st-page").addEventListener("click",function(event){
+    event.preventDefault();
+    // window.location.href = "index.html";
+    console.log("hey")
+})
