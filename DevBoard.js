@@ -93,8 +93,3 @@ document.getElementById("2nd-page").addEventListener("click",function(event){
     window.location.href = "index2.html";
 })
 
-document.getElementById("1st-page").addEventListener("click",function(event){
-    event.preventDefault();
-    // window.location.href = "index.html";
-    console.log("hey")
-})
