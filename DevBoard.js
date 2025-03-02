@@ -10,6 +10,7 @@
       // plus mines area 
 
 let taskCount = 6;
+
 let activityCount = 23;
 
 function completeTask(taskId) {
@@ -31,7 +32,17 @@ function completeTask(taskId) {
          += `<li> You have Completed the task : ${task.querySelector("h3").textContent}
           at ${new Date().toLocaleTimeString()}</li>`;
     }
+
+
 }
+
+
+
+   
+
+
+
+
 
 
        // btn hide
@@ -128,5 +139,13 @@ document.getElementById("btn-opacity5").addEventListener("click",function(event)
 document.getElementById("btn-opacity6").addEventListener("click",function(event){
     event.preventDefault();
     alert("Board updated Successfully")
+    
 })
 
+
+
+document.getElementById("btn-opacity6").addEventListener("click",function(event){
+    event.preventDefault();
+    alert("Congrats!!! You have completed all the current tusk ")
+    
+})
