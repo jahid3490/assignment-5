@@ -28,7 +28,7 @@ function completeTask(taskId) {
         document.getElementById("activity-count").textContent = activityCount;
         
         document.getElementById("log-list").innerHTML
-         += `<li>Completed: ${task.querySelector("h3").textContent}
+         += `<li> You have Completed the task : ${task.querySelector("h3").textContent}
           at ${new Date().toLocaleTimeString()}</li>`;
     }
 }
@@ -91,5 +91,42 @@ document.getElementById("color-grading").addEventListener("click", function() {
 document.getElementById("2nd-page").addEventListener("click",function(event){
     event.preventDefault();
     window.location.href = "index2.html";
+})
+
+
+
+
+document.getElementById("btn-opacity").addEventListener("click",function(event){
+    event.preventDefault();
+    alert("Board updated Successfully")
+})
+
+
+document.getElementById("btn-opacity2").addEventListener("click",function(event){
+    event.preventDefault();
+    alert("Board updated Successfully")
+})
+
+
+document.getElementById("btn-opacity3").addEventListener("click",function(event){
+    event.preventDefault();
+    alert("Board updated Successfully")
+})
+
+document.getElementById("btn-opacity4").addEventListener("click",function(event){
+    event.preventDefault();
+    alert("Board updated Successfully")
+})
+
+document.getElementById("btn-opacity5").addEventListener("click",function(event){
+    event.preventDefault();
+    alert("Board updated Successfully")
+})
+
+
+
+document.getElementById("btn-opacity6").addEventListener("click",function(event){
+    event.preventDefault();
+    alert("Board updated Successfully")
 })
 
